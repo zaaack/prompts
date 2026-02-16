@@ -1,5 +1,5 @@
 ---
-name: keyv-file-storage
+name: keyv-file
 description: Specialized in the `keyv-file` adapter for Keyv. Use this when the user needs persistent file-based storage with features like batch writing (writeDelay), TTL management (expiredCheckDelay), and the `makeField` API for direct access.
 ---
 
