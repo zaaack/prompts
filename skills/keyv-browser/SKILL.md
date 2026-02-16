@@ -1,10 +1,15 @@
-### 🌐 keyv-browser Core Overview
+---
+name: keyv-browser-storage
+description: Handles browser-specific persistence using `localStorage` or `IndexedDB` via the Keyv API. Use this for web-based caching, handling storage quotas, and implementing asynchronous field-based accessors in the browser.
+---
+
+# keyv-browser
 
 **keyv-browser** provides two specialized storage adapters that allow the standard Keyv API to work seamlessly within a web browser environment.
 
 ---
 
-### 🛠 Available Adapters
+### Available Adapters
 
 | Adapter | Storage Engine | Best For |
 | --- | --- | --- |
@@ -13,7 +18,7 @@
 
 ---
 
-### 💡 Usage Patterns
+### Usage Patterns
 
 #### 1. Standard Keyv Integration
 
@@ -37,7 +42,7 @@ const cacheStore = new Keyv({
 
 #### 2. Declarative "Field" Usage
 
-Similar to `keyv-file`, you can use `makeField` to create direct, type-safe accessors for specific keys.
+Use `makeField` to create direct, type-safe accessors for specific keys.
 
 ```typescript
 import { KeyvLocalStorage, makeField } from 'keyv-browser'

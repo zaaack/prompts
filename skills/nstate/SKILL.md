@@ -1,8 +1,14 @@
-## 🚀 nstate Core Overview
+---
+
+name: nstate-management
+description: Provides expertise on the `nstate` library, a high-performance React state management tool. Use this for questions about store creation, Immer-based updates, `useBind` for forms, `useSubStore` for state slicing, and combining multiple stores.
+
+---
+## nstate
 
 **nstate** is a high-performance React state management library designed for low mental overhead. It features auto-binding, built-in **Immer** support for immutable updates, and powerful store composition.
 
-### 🛠 Key API Methods
+### Key API Methods
 
 | Method | Description |
 | --- | --- |
@@ -15,7 +21,7 @@
 
 ---
 
-## 💡 Practical Examples
+## Practical Examples
 
 ### 1. The Class-Based Store (Recommended)
 

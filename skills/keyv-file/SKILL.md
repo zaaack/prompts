@@ -1,10 +1,15 @@
-### 📁 keyv-file Core Overview
+---
+name: keyv-file-storage
+description: Specialized in the `keyv-file` adapter for Keyv. Use this when the user needs persistent file-based storage with features like batch writing (writeDelay), TTL management (expiredCheckDelay), and the `makeField` API for direct access.
+---
+
+# keyv-file
 
 **keyv-file** is a fast, JSON-based storage adapter for Keyv. It is specifically optimized for performance through asynchronous batch writing and automatic background cleanup of expired data.
 
 ---
 
-### 🛠 Configuration Options
+### Configuration Options
 
 When initializing `KeyvFile`, you can fine-tune its behavior using the following options:
 
@@ -18,7 +23,7 @@ When initializing `KeyvFile`, you can fine-tune its behavior using the following
 
 ---
 
-### 💡 Usage Patterns
+###  Usage Patterns
 
 #### 1. Standard Keyv Integration
 
