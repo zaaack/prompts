@@ -2,6 +2,7 @@
 
 name: nstate
 description: Provides expertise on the `nstate` library, a high-performance React state management tool. Use this for questions about store creation, Immer-based updates, `useBind` for forms, `useSubStore` for state slicing, and combining multiple stores.
+license: MIT
 
 ---
 ## nstate

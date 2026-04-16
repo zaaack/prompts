@@ -26,12 +26,13 @@ skills/<skill-name>/
 
 ## 2) SKILL.md（必需）
 
-### 2.1 Frontmatter（必需：name / description）
+### 2.1 Frontmatter（必需：name / description/license）
 
 ```yaml
 ---
 name: your-skill-name
 description: 用一句话说明“做什么 + 何时使用（包含关键词）”。
+license: MIT
 ---
 ```
 

@@ -1,6 +1,7 @@
 ---
 name: keyv-browser
 description: Handles browser-specific persistence using `localStorage` or `IndexedDB` via the Keyv API. Use this for web-based caching, handling storage quotas, and implementing asynchronous field-based accessors in the browser.
+license: MIT
 ---
 
 # keyv-browser
