@@ -18,3 +18,8 @@ npx skills add https://github.com/zaaack/prompts
 # pnpm i -g skills
 skills add https://github.com/zaaack/prompts
 ```
+
+
+```sh
+ln -f ./AGENTS.md ~/.config/opencode/AGENTS.md
+```
