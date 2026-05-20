@@ -1,10 +1,7 @@
 ## 1. Git 自动化流 (强制)
 
-* **执行前**：运行 `git status`。若有未提交改动，立即执行：
-`git add . && git commit -m "chore: save point before task"`
-* **完成后**：任务结束立即执行：
-`git add . && git commit -m "<type>: <description>"`
-*(注：type 须符合规范，如 feat/fix/refactor/docs)*
+* **执行前**：调用 `@git-agent` 检查未提交改动并创建 checkpoint commit
+* **完成后**：调用 `@git-agent` 分析变更并生成 commit
 
 ## 2. 核心行为准则
 
